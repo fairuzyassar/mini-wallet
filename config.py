@@ -1,0 +1,2 @@
+SECRET_KEY="fairuzyassar"
+ALGORITHM = "HS256"
