@@ -29,3 +29,19 @@ class WalletStatusResponse(BaseModel):
     change_at: datetime
     balance: float 
 
+class TransactionDepositResponse(BaseModel):
+    id: str
+    reference_id: str
+    deposit_by: str
+    status: str
+    amount: float
+    deposit_at: datetime
+
+class TransactionWithdrawalResponse(BaseModel):
+    id: str
+    reference_id: str
+    withdrawn_by: str
+    status: str
+    amount: float
+    withdrawn_at: datetime
+

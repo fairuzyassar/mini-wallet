@@ -6,3 +6,7 @@ class InitRequest(BaseModel):
 class DisableRequest(BaseModel):
     is_disabled: bool
 
+class TransactionRequest(BaseModel):
+    reference_id: str
+    amount: int
+
